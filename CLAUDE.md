@@ -23,24 +23,17 @@ All tokens are defined as **CSS custom properties on `:root`** at the top of the
 
 ```css
 :root {
-  /* Brand colors */
-  --green:   #23D18B;   /* primary CTA, success, logo glow */
-  --yellow:  #FFE566;   /* accent highlight, warm emphasis */
-  --pink:    #FF6B9D;   /* secondary accent */
-  --blue:    #5865F2;   /* Discord-style indigo, secondary CTAs */
-  --purple:  #B96EFF;   /* tertiary accent */
-
-  /* Backgrounds */
-  --bg:      #111214;   /* page background */
-  --surface: #1E1F22;   /* card/section surfaces */
-  --surface2:#2B2D31;   /* elevated surface (plan cards, steps) */
-
-  /* Text */
-  --text:    #FFFFFF;   /* primary text */
-  --muted:   #B5BAC1;   /* secondary/descriptive text */
-
-  /* Utility */
-  --border:  rgba(255,255,255,0.08);  /* all subtle dividers and card borders */
+  --green:  #FF6B35; /* primary CTA, logo glow */
+  --yellow: #FFE566;
+  --pink:   #FF6B9D;
+  --blue:   #5865F2;
+  --purple: #B96EFF;
+  --bg:     #111214;
+  --surface:#1E1F22;
+  --surface2:#2B2D31;
+  --text:   #FFFFFF;
+  --muted:  #B5BAC1;
+  --border: rgba(255,255,255,0.08);
 }
 ```
 
